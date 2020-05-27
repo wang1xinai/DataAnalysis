@@ -7,7 +7,7 @@ import matplolib as mlp
 plt.ion()  #打开。如果没有实时显示，试试plt.draw()。
 plt.ioff() #关闭  后续使用plt.show()展示最终的可视化效果
 
-
+ 
 #创建图片
 fig, ax = plt.subplots()    #生成画布
 ax.plot(x,y,labels='x-y')   #在画布上根据数据画上图
